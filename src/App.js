@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="Name">
-          STUST <code>5B0G0009_姚映辰</code> upload
+          STUST <code>5B0G00??_我名字</code> upload
         </p>
         
         <a
