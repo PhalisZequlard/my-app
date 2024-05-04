@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 3.15s linear;
   }
 }
 
@@ -29,10 +29,44 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  0% {
     transform: rotate(0deg);
+    filter: brightness(0);
+    filter: blur(80px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    filter: brightness(1);
+    filter: blur(0px);
   }
+  95% {
+    transform: rotate(3500deg);
+    filter: brightness(1);
+    filter: blur(0px);
+  }
+  100% {
+    filter: brightness(0);
+    filter: blur(80px);
+  }
+}
+
+.Name {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Work-react {
+  color: #61dafb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px 0;
+  gap: 20px;
+}
+.Work-react > div {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
