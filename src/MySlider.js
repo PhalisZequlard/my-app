@@ -7,7 +7,7 @@ function MySlider() {
     <div>
       <input 
         type="range" 
-        width="200"
+        width="200" 
         min="0" 
         max="255" 
         value={value} 
