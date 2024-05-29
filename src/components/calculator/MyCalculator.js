@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import MyDisplay from "./MyDisplay";
-import MyButton from "./MyButton";
+import MyDisplay from "../MyDisplay";
+import MyButton from "../MyButton";
 import "./MyCalculator.css";
 
 function MyCalculator() {

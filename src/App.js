@@ -1,7 +1,8 @@
 import "./App.css";
-import MyRGBPanel from "./components/MyRGBPanel";
-import MySlider from "./components/MySlider";
-import MyCalculator from "./components/MyCalculator";
+import MyRGBPanel from "./components/rgb-panel/MyRGBPanel";
+import MySlider from "./components/rgb-panel/MySlider";
+import MyCalculator from "./components/calculator/MyCalculator";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <div>
         <h1>MyCalculator</h1>
         <MyCalculator />
+      </div>
+      <div>
+        <h1>TicTacTow</h1>
+        <TicTacToe />
       </div>
     </div>
   );

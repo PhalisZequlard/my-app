@@ -1,5 +1,5 @@
 import React from "react";
-import "./MyCalculator.css";
+import "./calculator/MyCalculator.css";
 
 function MyButton(props) {
     const handelClick = (e) =>{
