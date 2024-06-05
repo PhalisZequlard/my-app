@@ -12,10 +12,10 @@ function MyRGBPanel() {
   const updateB = (v) => setB(v);
 
   const rgbCss = {
-    width: "300px",
+    width: "190px",
     display: "flex",
     flexDirection: "column",
-    padding: "0 20px 20px 20px",
+    padding: "0px 10px",
     justifyContent: "center",
     alignItems: "center",
     margin: "auto",
@@ -28,14 +28,14 @@ function MyRGBPanel() {
         <h2 style={{color: "white", marginBottom: 5}}>
           Current color: 
         </h2>
-        <h5 style={{color: "white", marginTop: 0, marginBottom: 25}}>
+        <h5 style={{color: "white", marginTop: 0, marginBottom: 10}}>
           rgb({r}, {g}, {b})</h5>
         <div
           style={{
-            width: "250px",
-            height: "100px",
+            width: "100%",
+            height: "25px",
             backgroundColor: `rgb(${r}, ${g}, ${b})`,
-            marginBottom: 15
+            marginBottom: 10
           }}
         />
         <span>R: </span>

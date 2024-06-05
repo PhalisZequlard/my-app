@@ -1,11 +1,13 @@
 .App {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.1);
-  width: min-content;
+  width: 100%;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
   display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0px;
 }
 
 body {
@@ -14,4 +16,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0 0 5px 0;
 }
